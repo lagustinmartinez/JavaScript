@@ -1,0 +1,191 @@
+body{
+    background-color: black;
+}
+* {
+margin: 0;
+padding: 0;
+}
+
+ul {
+    list-style: none;
+    font-size:0 
+ }
+ li {
+    display: inline-block;
+    width: 30%;
+    position:relative; margin-top: 25px; margin-left: 40px; margin-bottom: 40px;
+    font-size: 20px;
+    
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    font-size: 15px;
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+ }
+
+body { color: white;}
+ 
+ .colorBlanco {
+      color: white; }
+
+ .tananoDeLetraH1 {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+ .tamanoDeLetraH1Central { 
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   }
+
+ h1 { text-align: center; 
+     font-family: 'Arimo', sans-serif;
+     font-weight: 700;}
+
+ ul li{ color: white;}
+
+ a { text-decoration: none;
+   color: white;
+    font-size: 20px;}
+
+ a:hover{text-decoration: underline;}
+
+p { font-size: 35px;
+    text-align: center; 
+     }
+
+section button { text-align: center;}
+
+p, a { font-family: 'Arimo', sans-serif;
+       font-weight: 500;
+       color: white;}
+
+footer span { 
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.headerClass{
+   display: flex;  
+   flex-direction: row; 
+   justify-content: space-between;
+   width: 90%;
+}
+.imagenCentral { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   width: 60%;
+}
+.centrarImagenes {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+.tamanoImagen{
+   width: 20%;
+   margin: auto;
+   margin-top: 30px;
+
+}
+.imagenContacto1{
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   width: 100%;
+}
+.imagenContacto2{
+   display: flex;
+   justify-content: center;
+   margin: auto;
+
+   
+
+}
+
+.divA {
+   flex-direction: column;
+   display: flex;
+   width: 100vw;
+}
+.aProductos{
+   display: flex;
+   width: 90%;
+   margin: auto;
+}
+ 
+
+#sectionPrincipal {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 0.5fr 3fr 0.5fr;
+
+   grid-template-areas: 
+   "header"
+   "main "
+   "div " ;
+   justify-items: center;
+   align-items: center;
+}
+
+header { 
+   grid-area: header;
+   
+}
+
+main { 
+   grid-area: main;
+   
+}
+
+div {
+   grid-area: div;
+   
+}
+
+#border {
+   border: solid white 2px;
+}
+
+.imagen45 { 
+  width: 49%; 
+}
+/* .displayFlex {
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   width: 100vw;
+}
+.anchoDefinido{
+   width: 100vw;
+} */
+
+@media screen and (max-width: 480px) 
+{
+   section { 
+      display: none;
+   }
+   body {
+      background-color: black;
+   }
+             
+}
+
+button {
+   color: white;
+   background-color: black;
+}
